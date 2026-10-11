@@ -1,0 +1,27 @@
+{
+  "name": "narrative-sentinel-agent",
+  "version": "1.0.0",
+  "description": "Autonomous Multi-KOL Narrative Convergence & Evidence-Based Trading Agent with Verifiable Audit Trail",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "kol-monitor",
+    "narrative-trading",
+    "crypto",
+    "solana",
+    "ethereum",
+    "dora-hacks",
+    "audit-trail"
+  ],
+  "author": "Tingqiu Liu <tianqi689@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
